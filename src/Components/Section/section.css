@@ -1,0 +1,56 @@
+.containt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containt h1 {
+  color: rgb(103, 60, 4);
+  border: 2px solid rgb(103, 60, 4);
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+}
+.containt h1:hover {
+  transform: scale(1.2);
+}
+.imge {
+  width: 50%;
+}
+img {
+  width: 100%;
+  height: 450px;
+  border-radius: 20px;
+  margin: auto;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.01);
+}
+.containt p {
+  color: rgb(103, 60, 4);
+  border: 2px solid rgb(103, 60, 4);
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+  width: 60%;
+  text-align: center;
+}
+.containt .p1:hover {
+  transform: rotate(10deg);
+}
+.containt .p2:hover {
+  transform: rotate(-10deg);
+}
+.sosyal-medya {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.sosyal-medya a {
+  color: rgb(103, 60, 4);
+  margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+.containt-hakkimizda p {
+  border: 2px solid rgb(103, 60, 4);
+  border-radius: 10px;
+  color: rgb(103, 60, 4);
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+  width: 90%;
+  margin: 20px auto;
+}
+.containt-hakkimizda p:hover {
+  transform: skew(10deg) scale(1.1) translate(10px, -10px);
+}

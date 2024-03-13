@@ -1,0 +1,25 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  flex-wrap: wrap;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.links a {
+  text-decoration: none;
+  width: 33.33333333333333%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: burlywood;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+.links a:hover {
+  background-color: rgb(234, 209, 176);
+}
+.links a:active {
+  background-color: rgb(235, 219, 197);
+}

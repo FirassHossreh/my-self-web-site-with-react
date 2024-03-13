@@ -1,0 +1,47 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+form input {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid wheat;
+  color: wheat;
+  background-color: rgb(103, 60, 4);
+  width: 534px;
+  margin: 10px auto;
+}
+
+form input::placeholder {
+  color: wheat;
+}
+.parent-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 100vh;
+}
+textarea {
+  width: 534px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  border: 3px solid rgb(103, 60, 4);
+  color: wheat;
+  background-color: rgba(103, 60, 4, 0.296);
+  margin: auto;
+}
+.btnS {
+  cursor: pointer;
+  background-color: rgb(229, 137, 17);
+}
+.btnS:hover {
+  background-color: rgba(229, 137, 17, 0.492);
+}
+.btnS:active {
+  background-color: rgba(229, 137, 17, 0.319);
+}

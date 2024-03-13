@@ -1,0 +1,52 @@
+.parent-card {
+  width: 100%;
+  background-color: rgba(103, 60, 4, 0.322);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+.containt-dont-level {
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.containt-card {
+  width: 90%;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: rgba(222, 184, 135, 0.384);
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.containt-card .containt-dont-level h1 {
+  color: rgb(103, 60, 4);
+}
+.containt-card:hover {
+  transform: scale(1.1);
+}
+.htmlImg {
+  width: 110px;
+  height: 110px;
+}
+
+.level {
+  height: 20px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  align-self: center;
+  margin: auto;
+  position: relative;
+}
+.accept-level {
+  position: absolute;
+  height: 20px;
+  background-color: rgb(103, 60, 4);
+  border-radius: 10px;
+}
